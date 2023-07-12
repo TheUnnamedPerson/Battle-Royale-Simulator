@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\ARM\Debug\Hunger Games Simulator_1.0.0.0_ARM_Debug.msix
+SymbolPackage=C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\ARM\Debug\Symbols\Hunger Games Simulator_1.0.0.0_ARM_Debug.appxsym

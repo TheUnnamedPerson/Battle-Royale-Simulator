@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Unnam\\Documents\\Battle Royale Simulator\\BattleRoyaleSimulator\\BattleRoyaleSimulator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Unnam\\Documents\\Battle Royale Simulator\\BattleRoyaleSimulator\\BattleRoyaleSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Unnam\\Documents\\Battle Royale Simulator\\BattleRoyaleSimulator\\BattleRoyaleSimulator.csproj",
+        "projectName": "Battle Royale Simulator",
+        "projectPath": "C:\\Users\\Unnam\\Documents\\Battle Royale Simulator\\BattleRoyaleSimulator\\BattleRoyaleSimulator.csproj",
+        "packagesPath": "C:\\Users\\Unnam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Unnam\\Documents\\Battle Royale Simulator\\BattleRoyaleSimulator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Unnam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.18362"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.18362": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.18362": {
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            },
+            "Microsoft.Xaml.Behaviors.Uwp.Managed": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "P42.Uno.AsyncNavigation": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
+            "System.Console": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.8.11, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

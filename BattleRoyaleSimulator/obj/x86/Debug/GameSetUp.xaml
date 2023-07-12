@@ -1,0 +1,205 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="BattleRoyaleSimulator.GameSetUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BattleRoyaleSimulator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:src="using:MonoTorrent.GUI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}">
+
+    <Grid Background="#FF121212" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Margin="20,80,20,40">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="420" Height="800">
+                <TextBlock Text="Characters:" FontSize="48" HorizontalTextAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Futura Md BT" />
+                <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="10,10,10,10" Height="730" Width="400">
+
+                    <ScrollViewer HorizontalAlignment="Center" Height="730" Width="400">
+
+                        <StackPanel HorizontalAlignment="Center" Height="730" Width="400" >
+
+                            <ListView x:ConnectionId='15' x:Name="StoredCharactersView" HorizontalAlignment="Center"                                         Height="730" Width="390" SelectionMode="Multiple"                                          >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate                             >
+
+                                        <Viewbox x:ConnectionId='17' VerticalAlignment="Stretch" HorizontalAlignment="Left">
+
+                                            <StackPanel Height="100" MinWidth="588" MaxWidth="800" Background="#FF282828" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Column="0" Margin="15,15,15,15" HorizontalAlignment="Left">
+
+                                                <Grid Height="60" Grid.Row="1" Grid.Column="0" Margin="20,20,0,0" FlowDirection="RightToLeft">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="80"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock x:ConnectionId='18' Height="60" Width="Auto" Foreground="White" FontSize="48" FontFamily="Futura Md BT" Margin="20,0,0,0" Grid.Column="1" Grid.ColumnSpan="1"                      TextAlignment="Center" />
+                                                </Grid>
+
+                                            </StackPanel>
+
+                                        </Viewbox>
+
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+                        </StackPanel>
+
+                    </ScrollViewer>
+
+                </Grid>
+            </StackPanel>
+
+        </Viewbox>
+
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Margin="20,80,20,40">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="420" Height="800">
+                <TextBlock Text="Events:" FontSize="48" HorizontalTextAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Futura Md BT" />
+                <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="10,10,10,10" Height="730" Width="400">
+
+
+                    <ScrollViewer HorizontalAlignment="Center" Height="730" Width="400">
+
+                        <StackPanel HorizontalAlignment="Center" Height="730" Width="400" >
+
+                            <ListView x:ConnectionId='11' x:Name="StoredEventsView" HorizontalAlignment="Center"                                      Height="730" Width="390" SelectionMode="Multiple"                                      >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate                              >
+
+                                        <Viewbox x:ConnectionId='13' VerticalAlignment="Stretch" HorizontalAlignment="Left">
+
+                                            <StackPanel Height="100" MinWidth="588" MaxWidth="800" Background="#FF282828" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Column="0" Margin="15,15,15,15" HorizontalAlignment="Left">
+
+                                                <Grid Height="60" Grid.Row="1" Grid.Column="0" Margin="20,20,0,0" FlowDirection="RightToLeft">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="80"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock x:ConnectionId='14' Height="60" Width="Auto" Foreground="White" FontSize="48" FontFamily="Futura Md BT" Margin="20,0,0,0" Grid.Column="1" Grid.ColumnSpan="1"                           TextAlignment="Center" />
+                                                </Grid>
+
+                                            </StackPanel>
+
+                                        </Viewbox>
+
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+                        </StackPanel>
+
+
+
+
+                    </ScrollViewer>
+
+
+                </Grid>
+            </StackPanel>
+
+        </Viewbox>
+
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Margin="20,80,20,40">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="420" Height="800">
+                <TextBlock Text="Options:" FontSize="48" HorizontalTextAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Futura Md BT" />
+                <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="10,10,10,10" Height="730" Width="400">
+
+
+                    <ScrollViewer HorizontalAlignment="Center" Height="730" Width="400">
+
+                        <StackPanel HorizontalAlignment="Center" Height="730" Width="400" >
+
+                            <ListView x:ConnectionId='3' x:Name="OptionsView" HorizontalAlignment="Center" Height="730" Width="390" SelectionMode="None">
+                                <StackPanel HorizontalAlignment="Center" Height="730" Width="390">
+                                    <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                                        <TextBlock Text="Day Event Spaces:" Width="200" Height="80" Foreground="White" Grid.Column="0" FontSize="32" TextWrapping="WrapWholeWords" FontFamily="Futura Md BT" HorizontalTextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,15,5,5" />
+                                        <Viewbox Width="165"  Margin="5,5,5,5">
+                                            <src:MultiSelectComboBox x:ConnectionId='9' x:Name="DayList" Width="100" Height="26" Grid.Column="1" VerticalAlignment="Center" Margin="5,0,5,0"
+                            ItemsSource="{Binding Values}"
+                            SelectedItems="{Binding SelectedValues, Mode=TwoWay}"
+                            NoSelectionText="{Binding EmptySelectionString}"
+                            MultipleSelectionTextFormat="{Binding MultipleSelectedFormatString}"                                                              
+                            PopupHeight="100" PopupWidth="150"
+                            HorizontalAlignment="Stretch" FontSize="14" MinHeight="26">
+                                                <src:MultiSelectComboBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}"/>
+                                                    </DataTemplate>
+                                                </src:MultiSelectComboBox.ItemTemplate>
+                                            </src:MultiSelectComboBox>
+                                        </Viewbox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                                        <TextBlock Text="Night Event Spaces:" Width="200" Height="80" Foreground="White" Grid.Column="0" FontSize="32" TextWrapping="WrapWholeWords" FontFamily="Futura Md BT" HorizontalTextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,15,5,5" />
+                                        <Viewbox Width="165"  Margin="5,5,5,5">
+                                            <src:MultiSelectComboBox x:ConnectionId='7' x:Name="NightList" Width="100" Height="26" Grid.Column="1" VerticalAlignment="Center" Margin="5,0,5,0"
+                            ItemsSource="{Binding Values}"
+                            SelectedItems="{Binding SelectedValues, Mode=TwoWay}"
+                            NoSelectionText="{Binding EmptySelectionString}"
+                            MultipleSelectionTextFormat="{Binding MultipleSelectedFormatString}"                                                              
+                            PopupHeight="200" PopupWidth="150"
+                            HorizontalAlignment="Stretch" FontSize="7" MinHeight="26">
+                                                <src:MultiSelectComboBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}"/>
+                                                    </DataTemplate>
+                                                </src:MultiSelectComboBox.ItemTemplate>
+                                            </src:MultiSelectComboBox>
+                                        </Viewbox>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                                        <TextBlock Text="Scenario Event Spaces:" Width="200" Height="80" Foreground="White" Grid.Column="0" FontSize="32" TextWrapping="WrapWholeWords" FontFamily="Futura Md BT" HorizontalTextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,15,5,5" />
+                                        <Viewbox Width="165"  Margin="5,5,5,5">
+                                            <src:MultiSelectComboBox x:ConnectionId='5' x:Name="ScenarioList" Width="100" Height="26" Grid.Column="1" VerticalAlignment="Center" Margin="5,0,5,0"
+                            ItemsSource="{Binding Values}"
+                            SelectedItems="{Binding SelectedValues, Mode=TwoWay}"
+                            NoSelectionText="{Binding EmptySelectionString}"
+                            MultipleSelectionTextFormat="{Binding MultipleSelectedFormatString}"                                                              
+                            PopupHeight="200" PopupWidth="150"
+                            HorizontalAlignment="Stretch" FontSize="7" MinHeight="26">
+                                                <src:MultiSelectComboBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}"/>
+                                                    </DataTemplate>
+                                                </src:MultiSelectComboBox.ItemTemplate>
+                                            </src:MultiSelectComboBox>
+                                        </Viewbox>
+                                    </StackPanel>
+                                    <Button x:ConnectionId='4' Margin="5,15,5,5" Width="300" Height="60" HorizontalAlignment="Center" Content="Run" FontFamily="Futura MD BT" FontSize="32"                      />
+
+                                </StackPanel>
+                            </ListView>
+
+                        </StackPanel>
+
+
+
+
+                    </ScrollViewer>
+
+
+                </Grid>
+            </StackPanel>
+
+        </Viewbox>
+
+        <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Right" Grid.Column="2">
+
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button x:ConnectionId='2' x:Name="BackButton" Content="Back" Height="50" Width="200" Background="White" HorizontalAlignment="Right" Foreground="Black" FontSize="28" FontFamily="Futura Md BT" Margin="0,20,20,0"                          />
+            </StackPanel>
+
+        </Grid>
+
+
+    </Grid>
+</Page>
+

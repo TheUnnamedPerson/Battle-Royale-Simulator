@@ -1,0 +1,245 @@
+﻿<Page
+    x:Class="BattleRoyaleSimulator.CharacterDataEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BattleRoyaleSimulator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="{x:Null}">
+
+    
+   
+
+    <Grid Background="#FF121212" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left">
+        
+        
+            <Viewbox VerticalAlignment="Stretch" HorizontalAlignment="Left">
+
+                <StackPanel x:Name="EditorPanel" Height="1010" MinWidth="588" MaxWidth="800" Background="#FF282828" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Column="0" Margin="15,15,15,15" HorizontalAlignment="Left">
+
+                    <Grid Height="60" Grid.Row="1" Grid.Column="0" Margin="20,20,0,0" FlowDirection="RightToLeft">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="+" FontSize="32" Margin="0,0,0,0" Height="60" Width="60" HorizontalAlignment="Right" Grid.Column="0" FontWeight="Bold" Click="Button_Click" />
+                        <TextBlock  Height="60" Width="Auto" Foreground="White" FontSize="48" FontFamily="Futura Md BT" Margin="20,0,0,0" Grid.Column="1" Grid.ColumnSpan="1" Text="{Binding ElementName=nameInput, Path=Text}" TextAlignment="Center" />
+                    </Grid>
+
+                    <StackPanel MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="20,20,20,0" HorizontalAlignment="Center" >
+                        <TextBlock  Width="Auto" Text="Name:" Foreground="White" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                        <TextBox x:Name="nameInput" Text="Character" Height="40" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" FontFamily="Futura Md BT" FontSize="24"/>
+                        <TextBlock  Width="Auto" Text="ID:" Foreground="White" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" />
+                        <TextBox x:Name="IdInput" Height="40" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" InputScope="Number" FontSize="24" FontFamily="Futura Md BT"/>
+                    </StackPanel>
+                    <TextBlock Height="Auto" Width="Auto" Text="Stats" FontSize="48" Foreground="White" FontFamily="Futura Md BT" HorizontalTextAlignment="Center" HorizontalAlignment="Center" Margin="20,20,20,0" />
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Consistency:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="ConsSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Luck:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="LuckSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Chaos:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="ChaosSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Sanity:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="SanitySlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Intelligence:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="IntSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Martial:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="MarSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Charisma:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="CharismaSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Diligence:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="DilSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Empathy:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="EmpSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Resourcefulness:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="RsrflSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Determination:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="DetSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="20,10,20,0" >
+                        <Grid MinWidth="550" Height="40" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Width="Auto" Text="Stability:" Foreground="White" Grid.Column="0" FontSize="24" FontFamily="Futura Md BT" HorizontalTextAlignment="Left" VerticalAlignment="Center" />
+                            <Slider x:Name="StabSlider" Height="40" Width="400" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,10,0" Style="{ThemeResource CustomSlideStyle}" StepFrequency="0.5" Maximum="10" Minimum="-10" />
+                        </Grid>
+                    </Viewbox>
+
+                </StackPanel>
+
+            </Viewbox>
+        
+        
+        </Grid>
+
+        <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Right" Grid.Column="1">
+
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button x:Name="BackButton" Content="Back" Height="50" Width="200" Background="White" HorizontalAlignment="Right" Foreground="Black" FontSize="28" FontFamily="Futura Md BT" Margin="0,20,20,0" Click="BackButton_Click" />
+            </StackPanel>
+
+        </Grid>
+
+        <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Margin="20,80,20,40">
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="420" Height="500">
+                <TextBlock Text="Characters:" FontSize="48" HorizontalTextAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Futura Md BT" />
+                <Grid FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Center" Margin="10,10,10,10" Height="430" Width="400">
+
+
+                    <ScrollViewer HorizontalAlignment="Center" Height="430" Width="400">
+
+
+
+                        <StackPanel HorizontalAlignment="Center" Height="430" Width="400" >
+
+                            <ListView x:Name="StoredCharactersView" HorizontalAlignment="Center" ItemsSource="{x:Bind storedCharacters}" Height="430" Width="390" SelectionChanged="CharacterView_Selected" SelectionMode="Single" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate x:DataType="local:Character">
+
+                                        <Viewbox VerticalAlignment="Stretch" HorizontalAlignment="Left">
+
+                                            <StackPanel Height="100" MinWidth="588" MaxWidth="800" Background="#FF282828" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Column="0" Margin="15,15,15,15" HorizontalAlignment="Left">
+
+                                                <Grid Height="60" Grid.Row="1" Grid.Column="0" Margin="20,20,0,0" FlowDirection="RightToLeft">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="80"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Button Content="X" FontSize="32" Margin="0,0,0,0" Height="60" Width="60" HorizontalAlignment="Right" Grid.Column="0" FontWeight="Bold" Click="Delete_Click" />
+                                                    <TextBlock Height="60" Width="Auto" Foreground="White" FontSize="48" FontFamily="Futura Md BT" Margin="20,0,0,0" Grid.Column="1" Grid.ColumnSpan="1" Text="{x:Bind name}" TextAlignment="Center" />
+                                                </Grid>
+
+                                            </StackPanel>
+
+                                        </Viewbox>
+
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+                        </StackPanel>
+
+
+
+
+                    </ScrollViewer>
+
+
+                </Grid>
+            </StackPanel>
+
+        </Viewbox>
+        
+        
+
+    </Grid>
+</Page>

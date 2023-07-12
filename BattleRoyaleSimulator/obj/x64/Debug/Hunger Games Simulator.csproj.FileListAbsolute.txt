@@ -1,0 +1,44 @@
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\App.xbf
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\MainPage.xbf
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Hunger Games Simulator.xr.xml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Hunger Games Simulator.exe
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Hunger Games Simulator.pdb
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\resources.pri
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\AppxManifest.xml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Core\Hunger Games Simulator.exe
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Hunger Games Simulator.build.appxrecipe
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\System.Runtime.dll
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\App.g.i.cs
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\App.g.cs
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\MainPage.g.cs
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\App.xaml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\MainPage.xaml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\App.xbf
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\MainPage.xbf
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\Hunger Games Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\Hunger Games Simulator.csproj.CopyComplete
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\Hunger Games Simulator.exe
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\Hunger Games Simulator.pdb
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\priconfig.xml
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\resources.resfiles
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\pri.resfiles
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\qualifiers.txt
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Unnam\source\repos\Hunger Games Simulator\Hunger Games Simulator\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885562160000000.json

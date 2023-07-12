@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>H-DESKTOP</Machine>
+    <WindowsUser>Unnam</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>5b46b5b3-6c0a-42dc-8d49-9f34aaff31db</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Unnam</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EC8988A6763D8AAF0951401B7D5499494478284D71AC2E72A6EF46CF27DB3902</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5b46b5b3-6c0a-42dc-8d49-9f34aaff31db_1.0.0.0_x86__h216q77tb15z4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5b46b5b3-6c0a-42dc-8d49-9f34aaff31db_h216q77tb15z4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5b46b5b3-6c0a-42dc-8d49-9f34aaff31db</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Unnam</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-07-02T04:52:41.721</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Battle Royale Simulator.exe">
+      <PackagePath>entrypoint\Battle Royale Simulator.exe</PackagePath>
+      <Modified>2022-07-02T04:52:39.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\commonservicelocator\2.0.5\lib\netstandard2.0\CommonServiceLocator.dll">
+      <PackagePath>CommonServiceLocator.dll</PackagePath>
+      <Modified>2019-11-07T02:33:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\mathnet.numerics\4.15.0\lib\netstandard2.0\MathNet.Numerics.dll">
+      <PackagePath>MathNet.Numerics.dll</PackagePath>
+      <Modified>2021-01-07T16:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2016-11-14T20:41:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\microsoft.extensions.logging\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2017-02-17T17:01:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\microsoft.extensions.logging.abstractions\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2017-02-17T17:01:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2019-04-27T01:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2019-04-27T01:06:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\p42.uno.asyncnavigation\0.3.0\lib\uap10.0.17763\P42.Uno.AsyncNavigation.dll">
+      <PackagePath>P42.Uno.AsyncNavigation.dll</PackagePath>
+      <Modified>2020-12-29T15:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-05T09:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T19:38:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\uno.core\2.4.0\lib\uap10.0.17763\Uno.Core.dll">
+      <PackagePath>Uno.Core.dll</PackagePath>
+      <Modified>2021-06-08T14:34:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\uno.diagnostics.eventing\1.0.4\lib\netstandard2.0\Uno.Diagnostics.Eventing.dll">
+      <PackagePath>Uno.Diagnostics.Eventing.dll</PackagePath>
+      <Modified>2020-07-12T19:57:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\uno.ui\3.8.11\lib\UAP\Uno.UI.Toolkit.dll">
+      <PackagePath>Uno.UI.Toolkit.dll</PackagePath>
+      <Modified>2021-06-28T14:29:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T12:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\p42.uno.asyncnavigation\0.3.0\lib\uap10.0.17763\P42.Uno.AsyncNavigation\P42.Uno.AsyncNavigation.xr.xml">
+      <PackagePath>P42.Uno.AsyncNavigation\P42.Uno.AsyncNavigation.xr.xml</PackagePath>
+      <Modified>2020-12-28T21:32:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\.nuget\packages\uno.ui\3.8.11\lib\UAP\Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml">
+      <PackagePath>Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml</PackagePath>
+      <Modified>2021-06-28T14:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-06-19T22:57:49.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-06-19T21:36:35.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-19T21:36:35.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\Assets\Fonts\futura medium bt.ttf">
+      <PackagePath>Assets\Fonts\futura medium bt.ttf</PackagePath>
+      <Modified>2021-06-20T01:08:19.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Battle Royale Simulator.xr.xml">
+      <PackagePath>Battle Royale Simulator.xr.xml</PackagePath>
+      <Modified>2021-07-28T03:52:58.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\EventDataEditor.xbf">
+      <PackagePath>EventDataEditor.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Dictionary1.xbf">
+      <PackagePath>Dictionary1.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\CharacterDataEditor.xbf">
+      <PackagePath>CharacterDataEditor.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Game.xbf">
+      <PackagePath>Game.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\GameSetUp.xbf">
+      <PackagePath>GameSetUp.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\MultiSelectComboBox.xbf">
+      <PackagePath>MultiSelectComboBox.xbf</PackagePath>
+      <Modified>2022-07-02T04:52:38.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T10:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-07-02T04:52:40.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Unnam\source\repos\Battle Royale Simulator\BattleRoyaleSimulator\bin\x86\Debug\Core\Battle Royale Simulator.exe">
+      <PackagePath>Battle Royale Simulator.exe</PackagePath>
+      <Modified>2022-07-02T04:52:41.714</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
